@@ -1,9 +1,9 @@
-## Projeto Automatizar Extração de Dados de Notas Fiscais
+## Projeto - Automatizar Extração de Dados de Notas Fiscais  <img src="https://cdn-icons-png.freepik.com/256/14477/14477586.png?ga=GA1.1.763163565.1742925562&semt=ais_hybrid" width="25" height="25">
 
 
 Objetivo
 
-Defina uma automação que retire os dados de notas fiscais e os coloque em uma planilha Excel para serem utilizados posteriormente. 
+A automação deverá retirar os dados das notas fiscais e os colocar em uma planilha Excel para serem utilizados posteriormente. 
 
 Introdução
 
