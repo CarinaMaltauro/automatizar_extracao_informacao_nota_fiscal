@@ -1,0 +1,1 @@
+# automatizar_extracao_informacao_nota_fiscal
