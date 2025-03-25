@@ -15,7 +15,7 @@ def ler_xml_danfe(nota):
     dic_notafiscal = documento['nfeProc']['NFe']['infNFe'] 
 
     # acessar informações dentro de infNFe
-    # get foi colocado para caso a nota não tenha cpf, isso provocaria um erro, se não tiver cpf substitui pelo valor N/A
+    # get foi colocado para o caso da nota não ter cpf ou cnpj, o que provocaria um erro; não tendo cpf, substituir pelo valor N/A
     valor_total = dic_notafiscal['total']['ICMSTot']['vNF']
     cnpj_vendeu = dic_notafiscal['emit'].get('CNPJ', 'N/A')
     nome_vendeu = dic_notafiscal['emit']['xNome']
@@ -75,15 +75,15 @@ def ler_xml_servico(nota):
 
 # Adicionar resultado NFs em um mesmo arquivo Excel
 
-arquivos = os.listdir("NFs Finais")
+arquivos = os.listdir("NFs")
 
 dataframes = []
 for arquivo in arquivos:
      if 'xml' in arquivo:
          if 'DANFE' in arquivo:
-             df = pd.DataFrame.from_dict(ler_xml_danfe(f"NFs Finais/{arquivo}"))
+             df = pd.DataFrame.from_dict(ler_xml_danfe(f"NFs/{arquivo}"))
          else:
-             df = pd.DataFrame.from_dict(ler_xml_servico(f'NFs Finais/{arquivo}'))
+             df = pd.DataFrame.from_dict(ler_xml_servico(f'NFs/{arquivo}'))
          dataframes.append(df)
 
 # concatenar todos os dataframes em um só
