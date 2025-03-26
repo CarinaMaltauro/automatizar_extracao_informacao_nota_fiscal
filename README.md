@@ -5,14 +5,15 @@
 
 ## Objetivo
 
-A automação deverá retirar os dados das notas fiscais e os colocar em uma planilha Excel para serem utilizados posteriormente. 
+A automação deverá extrair os dados das notas fiscais e registrá-los em uma planilha Excel. Essa extração, além de permitir o
+armazenamento rápido de informações sobre custos, fornecedores, entre outras, quando se trata de um alto volume de notas, também
+possibilita uma análise futura mais profunda sobre os dados.
 
 ## Nota
 
-Cada Estado no Brasil segue um padrão de nota fiscal. Além disso, a estrutura xml de uma nota fiscal difere da estrutura xml
-de uma nota fiscal de serviço. O código realizará tanto a leitura de Nota Fiscal(NF-e) com a leitura de Nota Fiscal de Serviço
-(NFS-e), ambas do Estado do Rio de Janeiro. No entanto, é possível acrescentar leituras de outras estruturas de notas através
-de funções. 
+Cada estado no Brasil segue um padrão específico de nota fiscal. Além disso, a estrutura XML de uma Nota Fiscal Eletrônica (NF-e)
+difere da estrutura XML de uma Nota Fiscal de Serviço (NFS-e). O código realizará a leitura tanto de NF-e quanto de NFS-e, ambas
+do Estado do Rio de Janeiro. No entanto, é possível adicionar a leitura de outras estruturas de notas fiscais por meio de funções.
 
 ## Adicionais
 
