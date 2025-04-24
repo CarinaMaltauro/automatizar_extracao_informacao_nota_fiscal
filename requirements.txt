@@ -1,6 +1,4 @@
-Instalação
-
-pip install openpyxl
-pip install xmltodict
-pip install pandas
+openpyxl==3.1.5
+xmltodict==0.14.2
+pandas==2.2.2
 
