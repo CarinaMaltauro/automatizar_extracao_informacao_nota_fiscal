@@ -11,20 +11,20 @@ Este projeto tem como objetivo automatizar a leitura e extração de dados de ar
 
 A automação realiza a leitura dos arquivos XML, identifica o tipo de nota e extrai informações relevantes, como:
 
-Razão social e CNPJ do emitente
+- Razão social e CNPJ do emitente
 
-Data de emissão
+- Data de emissão
 
-Itens ou serviços descritos
+- Itens ou serviços descritos
 
-Valores totais e impostos (ICMS, ISS, retenções)
+- Valores totais e impostos (ICMS, ISS, retenções)
 
 Os dados extraídos são organizados e registrados em uma planilha Excel, facilitando:
 
-O armazenamento e a consulta rápida de informações financeiras
+- O armazenamento e a consulta rápida de informações financeiras
 
-A análise de custos, fornecedores e tributos
+- A análise de custos, fornecedores e tributos
 
-A escalabilidade do controle fiscal, mesmo com grandes volumes de documentos
+- A escalabilidade do controle fiscal, mesmo com grandes volumes de documentos
 
 Essa ferramenta é útil para escritórios contábeis, empresas e profissionais que lidam com grandes quantidades de notas fiscais e precisam otimizar o processo de análise e arquivamento.
