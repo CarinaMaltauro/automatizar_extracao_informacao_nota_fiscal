@@ -5,15 +5,11 @@
 
 ## Objetivo
 
-No Brasil, cada estado pode adotar padrões distintos para notas fiscais eletrônicas, o que afeta diretamente a estrutura dos arquivos XML. Além disso, a Nota Fiscal Eletrônica (NF-e) e a Nota Fiscal de Serviço Eletrônica (NFS-e) possuem formatos diferentes entre si.
-
 Este projeto tem como objetivo automatizar a leitura e extração de dados de arquivos XML de NF-e e NFS-e do Estado do Rio de Janeiro. A estrutura do código foi desenvolvida de forma modular, permitindo a adição de novos padrões e layouts de outros estados e municípios com facilidade.
 
 A automação realiza a leitura dos arquivos XML, identifica o tipo de nota e extrai informações relevantes, como:
 
 - Razão social e CNPJ do emitente
-
-- Data de emissão
 
 - Itens ou serviços descritos
 
