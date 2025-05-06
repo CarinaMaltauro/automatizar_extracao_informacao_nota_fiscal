@@ -5,16 +5,26 @@
 
 ## Objetivo
 
-A automação deverá extrair os dados das notas fiscais e registrá-los em uma planilha Excel. Essa extração, além de permitir o
-armazenamento rápido de informações sobre custos, fornecedores, entre outras, quando se trata de um alto volume de notas, também
-possibilita uma análise futura mais profunda sobre os dados.
+No Brasil, cada estado pode adotar padrões distintos para notas fiscais eletrônicas, o que afeta diretamente a estrutura dos arquivos XML. Além disso, a Nota Fiscal Eletrônica (NF-e) e a Nota Fiscal de Serviço Eletrônica (NFS-e) possuem formatos diferentes entre si.
 
-## Nota
+Este projeto tem como objetivo automatizar a leitura e extração de dados de arquivos XML de NF-e e NFS-e do Estado do Rio de Janeiro. A estrutura do código foi desenvolvida de forma modular, permitindo a adição de novos padrões e layouts de outros estados e municípios com facilidade.
 
-Cada estado no Brasil segue um padrão específico de nota fiscal. Além disso, a estrutura XML de uma Nota Fiscal Eletrônica (NF-e)
-difere da estrutura XML de uma Nota Fiscal de Serviço (NFS-e). O código realizará a leitura tanto de NF-e quanto de NFS-e, ambas
-do Estado do Rio de Janeiro. No entanto, é possível adicionar a leitura de outras estruturas de notas fiscais por meio de funções.
+A automação realiza a leitura dos arquivos XML, identifica o tipo de nota e extrai informações relevantes, como:
 
-## Adicionais
+Razão social e CNPJ do emitente
 
-Os arquivos xml foram adicionados para a realização de testes.
+Data de emissão
+
+Itens ou serviços descritos
+
+Valores totais e impostos (ICMS, ISS, retenções)
+
+Os dados extraídos são organizados e registrados em uma planilha Excel, facilitando:
+
+O armazenamento e a consulta rápida de informações financeiras
+
+A análise de custos, fornecedores e tributos
+
+A escalabilidade do controle fiscal, mesmo com grandes volumes de documentos
+
+Essa ferramenta é útil para escritórios contábeis, empresas e profissionais que lidam com grandes quantidades de notas fiscais e precisam otimizar o processo de análise e arquivamento.
