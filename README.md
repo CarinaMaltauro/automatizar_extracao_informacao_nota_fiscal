@@ -1,3 +1,19 @@
+## Licença
+Este projeto está licenciado sob a Licença Apache 2.0.
+
+## Atribuição obrigatória
+De acordo com os termos da licença Apache 2.0, qualquer pessoa que reutilizar este código (total ou parcialmente) deve incluir atribuição ao autor original:
+
+Código criado por @CarinaMaltauro
+
+A atribuição pode ser feita:
+
+Nos arquivos de código (comentários)
+
+Na documentação do projeto derivado
+
+Ou em qualquer local visível e apropriado
+
 <h1 align="center"> Projeto - Automatizar Extração de Dados de Notas Fiscais  <img src="https://cdn-icons-png.freepik.com/256/14477/14477586.png?ga=GA1.1.763163565.1742925562&semt=ais_hybrid" width="25" height="25"> </h1>
 
 <p align="center"> Carina R. P. M Dias</p>
